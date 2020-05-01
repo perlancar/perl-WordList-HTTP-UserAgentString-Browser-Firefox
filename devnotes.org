@@ -1,0 +1,7 @@
+* Upgrading
+
+: % wget http://useragentstring.com/pages/useragentstring.php?name=Firefox
+
+: % perl -lne'while (m!id=\d+\x27>(.+?)</a>!g) { print $1 }' useragentstring.php\?name\=Firefox
+
+Copy the list to source code.
