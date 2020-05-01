@@ -1,6 +1,8 @@
-package WordList::HTTP::UserAgentString::Firefox;
+package WordList::HTTP::UserAgentString::Browser::Firefox;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 use WordList;
@@ -11,7 +13,7 @@ our $SORT = 'newest';
 # STATS
 
 1;
-# ABSTRACT: Firefox User-Agent strings
+# ABSTRACT: Collection of Firefox browser User-Agent strings
 
 =head1 DESCRIPTION
 
